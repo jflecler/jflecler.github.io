@@ -366,11 +366,51 @@ td
 	{mso-style-parent:style0;
 	text-align:center;
 	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:#A6A6A6;
+	mso-pattern:black none;}
+.xl107
+	{mso-style-parent:style0;
+	mso-number-format:"Short Time";
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:#A6A6A6;
+	mso-pattern:black none;}
+.xl108
+	{mso-style-parent:style0;
+	color:#00B050;
+	mso-number-format:"\#\#\0022H00\0022";
+	text-align:center;
+	vertical-align:middle;
+	border:1.0pt dashed windowtext;
+	background:#92D050;
+	mso-pattern:black none;}
+.xl109
+	{mso-style-parent:style0;
+	mso-number-format:"\#\#\0022H00\0022";
+	text-align:center;
+	vertical-align:middle;
+	border:1.0pt dashed windowtext;
+	background:#FFC000;
+	mso-pattern:black none;}
+.xl110
+	{mso-style-parent:style0;
+	mso-number-format:"\#\#\0022H00\0022";
+	text-align:center;
+	vertical-align:middle;
+	border:1.0pt dashed windowtext;
+	background:#7030A0;
+	mso-pattern:black none;}
+.xl111
+	{mso-style-parent:style0;
+	text-align:center;
+	vertical-align:middle;
 	border-top:1.0pt dashed windowtext;
 	border-right:1.0pt dashed windowtext;
 	border-bottom:none;
 	border-left:1.0pt dashed windowtext;}
-.xl107
+.xl112
 	{mso-style-parent:style0;
 	text-align:center;
 	vertical-align:middle;
@@ -378,7 +418,7 @@ td
 	border-right:1.0pt dashed windowtext;
 	border-bottom:none;
 	border-left:1.0pt dashed windowtext;}
-.xl108
+.xl113
 	{mso-style-parent:style0;
 	text-align:center;
 	vertical-align:middle;
@@ -386,7 +426,7 @@ td
 	border-right:1.0pt dashed windowtext;
 	border-bottom:1.0pt dashed windowtext;
 	border-left:1.0pt dashed windowtext;}
-.xl109
+.xl114
 	{mso-style-parent:style0;
 	font-size:22.0pt;
 	font-weight:700;
@@ -396,13 +436,13 @@ td
 	border-right:none;
 	border-bottom:none;
 	border-left:1.0pt dashed windowtext;}
-.xl110
+.xl115
 	{mso-style-parent:style0;
 	font-size:22.0pt;
 	font-weight:700;
 	text-align:center;
 	vertical-align:middle;}
-.xl111
+.xl116
 	{mso-style-parent:style0;
 	font-size:22.0pt;
 	font-weight:700;
@@ -412,7 +452,7 @@ td
 	border-right:none;
 	border-bottom:1.0pt dashed windowtext;
 	border-left:1.0pt dashed windowtext;}
-.xl112
+.xl117
 	{mso-style-parent:style0;
 	font-size:22.0pt;
 	font-weight:700;
@@ -422,7 +462,7 @@ td
 	border-right:none;
 	border-bottom:1.0pt dashed windowtext;
 	border-left:none;}
-.xl113
+.xl118
 	{mso-style-parent:style0;
 	color:#595959;
 	text-align:center;
@@ -430,7 +470,7 @@ td
 	border-right:none;
 	border-bottom:.5pt solid windowtext;
 	border-left:none;}
-.xl114
+.xl119
 	{mso-style-parent:style0;
 	color:#595959;
 	text-align:center;
@@ -438,7 +478,7 @@ td
 	border-right:none;
 	border-bottom:.5pt solid windowtext;
 	border-left:1.5pt solid windowtext;}
-.xl115
+.xl120
 	{mso-style-parent:style0;
 	color:#595959;
 	text-align:center;
@@ -446,42 +486,33 @@ td
 	border-right:.5pt solid windowtext;
 	border-bottom:.5pt solid windowtext;
 	border-left:none;}
-.xl116
+.xl121
 	{mso-style-parent:style0;
 	font-weight:700;
 	mso-number-format:"0\\ \0022jours\0022";
 	text-align:center;
 	vertical-align:middle;
 	border:1.0pt dashed windowtext;}
-.xl117
+.xl122
 	{mso-style-parent:style0;
 	font-weight:700;
 	text-align:center;
 	vertical-align:middle;
 	border:1.0pt dashed windowtext;}
-.xl118
+.xl123
 	{mso-style-parent:style0;
 	font-size:22.0pt;
 	font-weight:700;
 	text-align:center;
 	vertical-align:middle;
 	border:1.0pt dashed windowtext;}
-.xl119
-	{mso-style-parent:style0;
-	color:red;
-	font-weight:700;
-	text-align:center;
-	border-top:1.5pt solid windowtext;
-	border-right:none;
-	border-bottom:none;
-	border-left:none;}
-.xl120
+.xl124
 	{mso-style-parent:style0;
 	font-weight:700;
 	font-style:italic;
 	text-align:center;
 	border:1.5pt solid windowtext;}
-.xl121
+.xl125
 	{mso-style-parent:style0;
 	font-size:16.0pt;
 	mso-number-format:"\#\,\#\#0\.00\\ \0022€\0022";
@@ -490,26 +521,11 @@ td
 	border:1.5pt solid windowtext;
 	background:white;
 	mso-pattern:black none;}
-.xl122
+.xl126
 	{mso-style-parent:style0;
 	font-size:16.0pt;
 	text-align:center;
 	vertical-align:middle;
 	border:1.5pt solid windowtext;
 	background:white;
-	mso-pattern:black none;}
-.xl123
-	{mso-style-parent:style0;
-	text-align:center;
-	vertical-align:middle;
-	border:.5pt solid windowtext;
-	background:#A6A6A6;
-	mso-pattern:black none;}
-.xl124
-	{mso-style-parent:style0;
-	mso-number-format:"Short Time";
-	text-align:center;
-	vertical-align:middle;
-	border:.5pt solid windowtext;
-	background:#A6A6A6;
 	mso-pattern:black none;}
