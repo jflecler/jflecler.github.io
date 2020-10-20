@@ -3,34 +3,27 @@
 <head>
 	<title>test</title>
 	<meta charset="utf-8">
-
-	<!-- jQuery, delete this line if you already have jQuery on your page -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-<!-- the twitch widget, place code in the <HEAD> -->
-<script>
-var twitchUserName = 'locklear' // your name goes here
-$(document).ready(function() {    
-   $.getJSON("https://api.twitch.tv/kraken/streams/"+twitchUserName+"?callback=?",function(streamData) {
-	  console.log('Stream Data:', streamData) // debug message, shows all available data  
-	  if(streamData && streamData.stream) {
-		 // displayed if online
-		 $('#streamWidget').html("<b class='online'>*ONLINE*</b> twitch.tv: <a href='http://www.twitch.tv/"+twitchUserName+"'>"+ streamData.stream.channel.status+"</a>")
-	  } else {
-		 // displayed if offline
-		 $('#streamWidget').html("<b class='offline'>*OFFLINE*</b> <a href='http://www.twitch.tv/"+twitchUserName+"'>http://www.twitch.tv/"+twitchUserName+"</a>")
-	  }
-   })
-})
-</script>
 </head>
 <body>
+<html>
+  <body>
+    <!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed"></div>
 
+    <!-- Load the Twitch embed script -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
 
-<!-- Place this div wherever you'd like the widget to appear on your page <BODY>.
-	  You can change "querying twitch" to say whatever you want to be displayed
-	  prior to the twitch.tv api's reply, which should be pretty quick.
--->
-<div id='streamWidget'>querying twitch</div>
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "locklear",
+        // only needed if your site is also embedded on embed.example.com and othersite.example.com 
+        parent: ["", ""]
+      });
+    </script>
+  </body>
+</html>
 </body>
 </html>
